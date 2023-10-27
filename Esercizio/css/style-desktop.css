@@ -1,0 +1,180 @@
+/* Your styles here */
+/* Your styles here */
+
+/* GENERAL */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-size: 56px;
+}
+
+/* HEADER */
+
+#epicode-logo {
+  background-color: black;
+  width: 100%;
+  padding: 2.5em 0;
+  text-align: left;
+}
+
+#epicode-logo img {
+  padding-left: 2em;
+}
+
+.intro-header {
+  padding: 10em 10em;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+header button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #f04c2f;
+  border-radius: 8%;
+  padding: 1em 2.5em;
+  margin-top: 2em;
+  border: none;
+  color: rgb(240, 240, 240);
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+
+.job-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1em;
+  padding: 4em 0;
+}
+
+.image-wrapper img {
+  border-radius: 50%;
+}
+
+.text-wrapper,
+.text-wrapper h3 {
+  text-align: left;
+}
+
+.job-description div {
+  padding: 1.5em 1em;
+}
+
+/* SECTION 2 */
+
+.epicode-testimonial {
+  background-color: #e22d0e;
+  color: whitesmoke;
+}
+
+.epicode-testimonial h2 {
+  color: whitesmoke;
+  padding: 3em 0 1em 0;
+  font-size: 32px;
+}
+
+blockquote {
+  font-style: italic;
+  padding: 0 2em 1.5em 2em;
+}
+.epicode-testimonial p:last-child {
+  font-size: 12px;
+  padding-bottom: 3em;
+}
+
+/* SECTION 3 */
+
+.course-description {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin: 4em;
+  
+}
+
+.course-description div {
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+  max-width: 30%;
+
+}
+
+.course-description img {
+  padding-bottom: 1em;
+  object-fit: cover;
+  width: 100%;
+  max-height: 50%;
+}
+
+.course-description div p {
+  padding: 1em 2em 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  text-align: center;
+}
+
+footer h2 {
+  color: white;
+  padding-top: 1em;
+}
+
+footer ul {
+  padding: 1em 0;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+}
+
+footer li,
+footer a,
+footer p {
+  color: #c8e7f0;
+  text-align: left;
+}
+
+footer p:last-child {
+  border-top: 1px solid white;
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+}
+
+ion-icon {
+  color: #25a2c3;
+  background-color: whitesmoke;
+  padding: 0.1em;
+  margin-right: 0.2em;
+  border-radius: 15%;
+}

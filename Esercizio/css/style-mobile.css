@@ -1,0 +1,163 @@
+/* Your styles here */
+
+/* GENERAL */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  text-align: center;
+  font-size: 32px;
+
+}
+
+h1, h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.50;
+    color: #25a2c3;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 80px;
+}
+
+/* HEADER */
+
+#epicode-logo {
+  background-color: black;
+  width: 100%;
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.intro-header {
+  padding: 2em;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+
+}
+
+
+
+header button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #f04c2f;
+    border-radius: 8%;
+    padding: 1em 2.5em;
+    margin-top: 2em;
+    border:none;
+    color: rgb(240, 240, 240);
+
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+
+.job-description {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-bottom: 1.5em;
+}
+
+
+.image-wrapper img{
+    border-radius: 50%;
+    transform: scale(1.2);
+
+}
+
+.job-description div {
+    padding: 1.5em 2em;
+}
+
+/* SECTION 2 */
+
+.epicode-testimonial {
+    background-color: #e22d0e;
+    color: whitesmoke;
+
+}
+
+.epicode-testimonial h2 {
+    color: whitesmoke;
+    padding: 1.5em 0 1em 0;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 0 2em 1.5em 2em;
+}
+.epicode-testimonial p:last-child {
+    font-size: 24px;
+    padding-bottom: 3em;
+}
+
+/* SECTION 3 */
+
+.course-description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1.5em
+}
+
+.course-description div {
+    border: 1px solid #dee1e3;
+    border-radius: 1%;
+    margin: 1em 0;
+}
+
+.course-description img {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.course-description div p {
+    padding: 1em 2em 3em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+}
+
+footer h2 {
+    color: white;
+    padding-top: 1em;
+}
+
+footer ul {
+    padding: 1em 0;
+}
+
+footer li, footer a, footer p {
+    color: #c8e7f0    ;
+}
+
+footer p:last-child {
+    border-top: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
+
+ion-icon {
+    color: #25a2c3;
+    background-color: whitesmoke;
+    padding: 0.1em;
+    margin-right: 0.2em;
+    border-radius: 15%;
+}
